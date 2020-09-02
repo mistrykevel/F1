@@ -1,0 +1,75 @@
+body {
+    margin:0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 19px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:Verdana, Geneva, sans-serif;
+}
+
+li a:hover{
+    background-color: #b92222;
+  }
+
+.huge{
+    width: 95px;
+    height: 60px;
+}
+
+.home:hover{
+    cursor: pointer;
+}
+.pages{
+  text-decoration: none;
+  font-size: 20px;
+  font-family:Verdana, Geneva, sans-serif;
+  color: black;
+  font-weight: bolder;
+}
+
+.pages:link{
+  color:black;
+}
+
+.pages:visited{
+  color:black;
+}
+
+.pages:hover{
+  color:#bd0505;
+}
+
+.pages:active{
+  color:red;
+}
+
+
+
+h1{
+  font-family:Verdana, Geneva, sans-serif;
+}
+
+h3{
+  font-family:Verdana, Geneva, sans-serif;
+}
